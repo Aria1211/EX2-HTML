@@ -4,77 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shinchan: Shiro and the Coal Town Game</title>
-    <style>
-        body {
-            font-family: 'Times New Roman', Times, serif; 
-            margin: 0;
-            padding: 20px;
-        }
-        
-        .navbar {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 10px 0;
-            font-size: 18px;
-        }
-        
-        .navbar a {
-            text-decoration: underline; 
-            color: purple;
-        }
-        
-        header, .centered-section {
-            text-align: center;
-            margin: 0 auto;
-            max-width: 900px;
-        }
-        
-        .character-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-            margin: 30px 0;
-        }
-        
-        .character-card {
-            width: 250px;
-            text-align: center;
-        }
-        
-        .left-aligned-section {
-            text-align: left;
-            margin: 40px;
-            max-width: 400px;
-            padding: 0;
-        }
-        
-        form {
-            margin-top: 20px;
-        }
-        
-        label, input, select, textarea {
-            display: block;
-            margin-bottom: 10px;
-            width: 100%;
-        }
-        
-        textarea {
-            height: 100px;
-        }
-        
-        button {
-            padding: 8px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-    </style>
 </head>
-<body>
+<body style="font-family: 'Times New Roman', Times, serif; margin: 0; padding: 20px;">
+
     <div style="display: flex; justify-content: space-between; padding: 10px 20px;">
         <img src="assets/shin-chan-banner.jpg" alt="Shin-chan Banner" style="width: 70%; max-width: 100%;">
         <div style="text-align: right;">
@@ -82,67 +14,67 @@
         </div>
     </div>
 
-    <div class="navbar">
-        <a href="#game">Shinchan: Shiro and the Coal Town Game</a>
-        <a href="#characters">Characters</a>
-        <a href="#favorite">Who's your favorite?</a>
+    <div style="display: flex; justify-content: center; gap: 20px; padding: 10px 0; font-size: 18px;">
+        <a href="#game" style="text-decoration: underline; color: purple;">Shinchan: Shiro and the Coal Town Game</a>
+        <a href="#characters" style="text-decoration: underline; color: purple;">Characters</a>
+        <a href="#favorite" style="text-decoration: underline; color: purple;">Who's your favorite?</a>
     </div>
 
-    <section id="game" class="centered-section">
+    <section id="game" style="text-align: center; margin: 0 auto; max-width: 900px;">
         <h2>Shinchan: Shiro and the Coal Town</h2>
         <p>(Available on: Nintendo Switch and Windows PC)</p>
-        <video controls width="100%">
+        <video controls style="width: 100%;">
             <source src="assets/shinchan-and-the-coal-town.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </section>
 
-    <section id="characters" class="centered-section">
+    <section id="characters" style="text-align: center; margin: 0 auto; max-width: 900px;">
         <h2>The Characters</h2>
-        <div class="character-container">
-            <div class="character-card">
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin: 30px 0;">
+            <div style="width: 250px; text-align: center;">
                 <h3>Shinnosuke Nohara (Shinchan)</h3>
-                <img src="assets/character-shinchan.png" alt="Shinchan" width="150">
+                <img src="assets/character-shinchan.png" alt="Shinchan" style="width: 150px;">
                 <p>The mischievous 5-year-old protagonist known for his hilarious antics and love of choco chips.</p>
             </div>
             
-            <div class="character-card">
+            <div style="width: 250px; text-align: center;">
                 <h3>Misae Nohara (Mom)</h3>
-                <img src="assets/character-misae.webp" alt="Misae" width="150">
+                <img src="assets/character-misae.webp" alt="Misae" style="width: 150px;">
                 <p>Shinchan's short-tempered but loving mother, always trying to keep him in line.</p>
             </div>
             
-            <div class="character-card">
+            <div style="width: 250px; text-align: center;">
                 <h3>Hiroshi Nohara (Dad)</h3>
-                <img src="assets/character-hiroshi.webp" alt="Hiroshi" width="150">
+                <img src="assets/character-hiroshi.webp" alt="Hiroshi" style="width: 150px;">
                 <p>The laid-back father who works at a company and enjoys his evening beer.</p>
             </div>
             
-            <div class="character-card">
+            <div style="width: 250px; text-align: center;">
                 <h3>Himawari (Sister)</h3>
-                <img src="assets/character-himawari.png" alt="Himawari" width="150">
+                <img src="assets/character-himawari.png" alt="Himawari" style="width: 150px;">
                 <p>The youngest of the Noharas. Loves shiny objects and brand-name goods.</p>
             </div>
             
-            <div class="character-card">
+            <div style="width: 250px; text-align: center;">
                 <h3>Yukino Nohara (Shiro)</h3>
-                <img src="assets/character-shiro.png" alt="Shiro" width="150">
+                <img src="assets/character-shiro.png" alt="Shiro" style="width: 150px;">
                 <p>The family dog — small, fluffy, and sometimes the most sensible member.</p>
             </div>
             
-            <div class="character-card">
+            <div style="width: 250px; text-align: center;">
                 <h3>Toru Kazama</h3>
-                <img src="assets/character-toru-kazama.webp" alt="Toru Kazama" width="150">
+                <img src="assets/character-toru-kazama.webp" alt="Toru Kazama" style="width: 150px;">
                 <p>The smart and responsible friend, often the voice of reason in the group.</p>
             </div>
         </div>
     </section>
 
-    <section id="favorite" class="left-aligned-section">
+    <section id="favorite" style="text-align: left; margin: 40px; max-width: 400px; padding: 0;">
         <h2>Who's your favorite?</h2>
         <form>
             <label for="favorite">Who's your favorite character?</label>
-            <select id="favorite">
+            <select id="favorite" style="display: block; margin-bottom: 10px; width: 100%;">
                 <option>Shinchan</option>
                 <option>Misae (Mom)</option>
                 <option>Hiroshi (Dad)</option>
@@ -152,14 +84,14 @@
             </select>
             
             <label for="other">Character not in the list? Write their name below:</label>
-            <input type="text" id="other" placeholder="Enter character name">
+            <input type="text" id="other" placeholder="Enter character name" style="display: block; margin-bottom: 10px; width: 100%;">
             
             <label for="reason">Why do you like this character?</label>
-            <textarea id="reason" placeholder="State your reasons..."></textarea>
+            <textarea id="reason" placeholder="State your reasons..." style="display: block; margin-bottom: 10px; width: 100%; height: 100px;"></textarea>
             
             <h3>Tell us a bit more about yourself</h3>
             <label for="name">Your Name:</label>
-            <input type="text" id="name" placeholder="Enter your name">
+            <input type="text" id="name" placeholder="Enter your name" style="display: block; margin-bottom: 10px; width: 100%;">
             
             <label>Your Gender:</label>
             <div>
@@ -171,12 +103,12 @@
             </div>
             
             <label for="dob">Your Date of Birth:</label>
-            <input type="text" id="dob" placeholder="dd.mm.yyyy">
+            <input type="text" id="dob" placeholder="dd.mm.yyyy" style="display: block; margin-bottom: 10px; width: 100%;">
             
             <label for="email">Your Email:</label>
-            <input type="email" id="email" placeholder="Enter your email">
+            <input type="email" id="email" placeholder="Enter your email" style="display: block; margin-bottom: 10px; width: 100%;">
             
-            <button type="submit">Submit</button>
+            <button type="submit" style="padding: 8px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer; margin-top: 10px;">Submit</button>
         </form>
     </section>
 
